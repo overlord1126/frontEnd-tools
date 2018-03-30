@@ -157,8 +157,8 @@ function swiper(paraObj){
 		},
 		lastPoint = {},
 		lastTime = 0,
-		minTranslate = {};
-	var speed = 0;
+		minTranslate = {},
+		speed = 0;
 	css( scroll,"translateX",0 );
 	css( scroll,"translateY",0 );
 	
