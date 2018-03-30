@@ -159,9 +159,9 @@ function swiper(paraObj){
 		lastTime = 0,
 		minTranslate = {},
 		speed = 0;
+
 	css( scroll,"translateX",0 );
 	css( scroll,"translateY",0 );
-	
 //	初始化的时候,根据isShowBar的状态插入滚动条
 	if( isShowBar ){
 		var bar = document.createElement("div");
@@ -188,7 +188,6 @@ function swiper(paraObj){
 	
 	
 	el.addEventListener("touchstart",function(e){
-		
 		//透明度 1 滚动条
 		var pos = e.changedTouches[0];
 		startPos = {
